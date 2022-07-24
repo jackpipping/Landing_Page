@@ -1,0 +1,185 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.secondarytext{
+    font-size: 18px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+
+.box1{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    justify-content: space-between;
+    gap: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.subbox1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.title1{
+    padding-bottom: 30px;
+    border: #1F2937;
+    border-width: 3px;
+    
+}
+.squares{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: space-around;
+
+}
+
+.square{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    
+}
+
+.squareimage{
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+   border-color: #3882F6;
+   border-radius: 15px;
+}
+
+.box3{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.thor{
+    display: flex;
+    justify-content: flex-end;
+}
+.box4{
+    background-color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+.bluebox{
+    background-color: #3882F6;
+    margin: 5%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8%;
+    border-radius: 15px;
+
+}
+
+.button2{
+    color: white;
+    background-color: #3882F6; 
+    border-radius: 5px;
+    padding: 1em;
+    border-style: solid;
+    height: 45px;
+    width: 120px;
+}
+
+.button1{
+    color: white;
+    background-color: #3882F6; 
+    border-radius: 5px;
+    
+    border-style: solid;
+    border-color: #3882F6;
+    height: 30px;
+    width: 90px;
+
+}
+.button{
+    display: flex;
+    
+    justify-content: flex-end;
+}
+
+.image{
+    flex-grow: 1;
+    width: 30%;
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+}
+.subbox1{
+    flex-grow: 1;
+    width: 30%;
+}
+
